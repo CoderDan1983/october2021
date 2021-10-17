@@ -1,0 +1,38 @@
+From 9c9416cb4dced973cffaa25b6149733eb7af9bd2 Mon Sep 17 00:00:00 2001
+From: CoderDan1983 <seekingsomething121@gmail.com>
+Date: Sun, 17 Oct 2021 07:31:35 -0700
+Subject: [PATCH 26/34] save it all
+
+---
+ .gitignore | 5 +++--
+ index.html | 1 +
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+
+diff --git a/.gitignore b/.gitignore
+index 6cb34a9..4b2ac59 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -1,3 +1,4 @@
+ # ignore some stuff
+-index.html
+-index.js
+\ No newline at end of file
++#index.html
++#index.js
++#dooper.js
+\ No newline at end of file
+diff --git a/index.html b/index.html
+index f1772f4..7ef8cca 100644
+--- a/index.html
++++ b/index.html
+@@ -32,5 +32,6 @@
+ 		<p>why does it keep saving?</p>
+ 		<p>I don't want it to save</p>
+ 		<p>git ignore is ignored</p>
++		<p>this doesn't not track!</p>
+ 	</body>
+ </html>
+\ No newline at end of file
+-- 
+2.28.0.windows.1
+

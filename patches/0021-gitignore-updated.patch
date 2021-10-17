@@ -1,0 +1,22 @@
+From 2e9cd664947834394ac4a79f1d07ed1f6ee9d7e4 Mon Sep 17 00:00:00 2001
+From: CoderDan1983 <seekingsomething121@gmail.com>
+Date: Sun, 17 Oct 2021 06:59:58 -0700
+Subject: [PATCH 21/34] gitignore updated?
+
+---
+ .gitignore | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/.gitignore b/.gitignore
+index a876665..f0db3fe 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -1,2 +1,2 @@
+ # ignore all html files
+-*.html
+\ No newline at end of file
++index.html
+\ No newline at end of file
+-- 
+2.28.0.windows.1
+
