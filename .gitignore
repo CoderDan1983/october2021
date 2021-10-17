@@ -1,2 +1,3 @@
-# ignore all html files
+# ignore some stuff
 index.html
+index.js
