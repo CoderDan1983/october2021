@@ -1,7 +1,7 @@
 From 93e92ede3561c54ae1875e0e5d49be80aedff933 Mon Sep 17 00:00:00 2001
 From: CoderDan1983 <seekingsomething121@gmail.com>
 Date: Fri, 15 Oct 2021 10:33:54 -0700
-Subject: [PATCH 15/34] created class romneyfied
+Subject: [PATCH 15/35] created class romneyfied
 
 ---
  index.js | 8 ++++++++

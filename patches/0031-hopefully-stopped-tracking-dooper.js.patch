@@ -1,7 +1,7 @@
 From 5a78b19ecca1dcbc0e63395ac2e02514336b9e0a Mon Sep 17 00:00:00 2001
 From: CoderDan1983 <seekingsomething121@gmail.com>
 Date: Sun, 17 Oct 2021 07:49:15 -0700
-Subject: [PATCH 31/34] (hopefully) stopped tracking dooper.js
+Subject: [PATCH 31/35] (hopefully) stopped tracking dooper.js
 
 ---
  dooper.js | 6 ------

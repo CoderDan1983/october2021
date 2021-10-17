@@ -1,0 +1,1247 @@
+From 537199287bdf5bc678a3f6da857e218c5906548d Mon Sep 17 00:00:00 2001
+From: CoderDan1983 <seekingsomething121@gmail.com>
+Date: Sun, 17 Oct 2021 11:52:56 -0700
+Subject: [PATCH 35/35] these patches are trying
+
+---
+ patch/0001-juan-rewrites.patch                |  25 ++++++++
+ patches/.0020-hmmm.swp                        | Bin 0 -> 12288 bytes
+ ...001-I-hope-to-remember-these-changes.patch |  24 +++++++
+ patches/0002-fortress-change.patch            |  27 ++++++++
+ patches/0003-added-div.patch                  |  24 +++++++
+ ...s-relative-to-saves-adds-and-commits.patch |  25 ++++++++
+ patches/0005-more-testing.patch               |  26 ++++++++
+ patches/0006-getting-up-to-date.patch         |  25 ++++++++
+ patches/0007-introducing-bug.patch            |  24 +++++++
+ patches/0008-walking-away.patch               |  24 +++++++
+ patches/0009-loanly-rode.patch                |  24 +++++++
+ patches/0010-gogh-time.patch                  |  24 +++++++
+ patches/0011-donut.patch                      |  24 +++++++
+ patches/0012-due-or-dye.patch                 |  24 +++++++
+ patches/0013-leaf-ate-bee.patch               |  24 +++++++
+ ...ated-function-notMuchHasBeenDoneHere.patch |  25 ++++++++
+ patches/0015-created-class-romneyfied.patch   |  30 +++++++++
+ patches/0016-beef-read.patch                  |  59 ++++++++++++++++++
+ ...ith-Git-GUI.-Message-ammended-there-.patch |  26 ++++++++
+ patches/0018-what-will-happen-here.patch      |  24 +++++++
+ patches/0019-gitignore-added.patch            |  22 +++++++
+ patches/0020-hmmm.patch                       |  24 +++++++
+ patches/0021-gitignore-updated.patch          |  22 +++++++
+ patches/0022-still-commiting.patch            |  24 +++++++
+ patches/0023-why.patch                        |  24 +++++++
+ patches/0024-against-my-will.patch            |  24 +++++++
+ patches/0025-sigh.patch                       |  52 +++++++++++++++
+ patches/0026-save-it-all.patch                |  38 +++++++++++
+ patches/0027-added-dooper.js.patch            |  25 ++++++++
+ patches/0028-hmmm.patch                       |  24 +++++++
+ patches/0029-still-saving-dooper.js.patch     |  25 ++++++++
+ patches/0030-stopping-mooper.js.patch         |  25 ++++++++
+ ...hopefully-stopped-tracking-dooper.js.patch |  26 ++++++++
+ patches/0032-juan-rewrites.patch              |  25 ++++++++
+ patches/0033-master-change.patch              |  24 +++++++
+ patches/0034-kind-of-a-mess.patch             |  27 ++++++++
+ 36 files changed, 939 insertions(+)
+ create mode 100644 patch/0001-juan-rewrites.patch
+ create mode 100644 patches/.0020-hmmm.swp
+ create mode 100644 patches/0001-I-hope-to-remember-these-changes.patch
+ create mode 100644 patches/0002-fortress-change.patch
+ create mode 100644 patches/0003-added-div.patch
+ create mode 100644 patches/0004-studying-hashes-relative-to-saves-adds-and-commits.patch
+ create mode 100644 patches/0005-more-testing.patch
+ create mode 100644 patches/0006-getting-up-to-date.patch
+ create mode 100644 patches/0007-introducing-bug.patch
+ create mode 100644 patches/0008-walking-away.patch
+ create mode 100644 patches/0009-loanly-rode.patch
+ create mode 100644 patches/0010-gogh-time.patch
+ create mode 100644 patches/0011-donut.patch
+ create mode 100644 patches/0012-due-or-dye.patch
+ create mode 100644 patches/0013-leaf-ate-bee.patch
+ create mode 100644 patches/0014-created-function-notMuchHasBeenDoneHere.patch
+ create mode 100644 patches/0015-created-class-romneyfied.patch
+ create mode 100644 patches/0016-beef-read.patch
+ create mode 100644 patches/0017-this-was-saved-with-Git-GUI.-Message-ammended-there-.patch
+ create mode 100644 patches/0018-what-will-happen-here.patch
+ create mode 100644 patches/0019-gitignore-added.patch
+ create mode 100644 patches/0020-hmmm.patch
+ create mode 100644 patches/0021-gitignore-updated.patch
+ create mode 100644 patches/0022-still-commiting.patch
+ create mode 100644 patches/0023-why.patch
+ create mode 100644 patches/0024-against-my-will.patch
+ create mode 100644 patches/0025-sigh.patch
+ create mode 100644 patches/0026-save-it-all.patch
+ create mode 100644 patches/0027-added-dooper.js.patch
+ create mode 100644 patches/0028-hmmm.patch
+ create mode 100644 patches/0029-still-saving-dooper.js.patch
+ create mode 100644 patches/0030-stopping-mooper.js.patch
+ create mode 100644 patches/0031-hopefully-stopped-tracking-dooper.js.patch
+ create mode 100644 patches/0032-juan-rewrites.patch
+ create mode 100644 patches/0033-master-change.patch
+ create mode 100644 patches/0034-kind-of-a-mess.patch
+
+diff --git a/patch/0001-juan-rewrites.patch b/patch/0001-juan-rewrites.patch
+new file mode 100644
+index 0000000..ab25fa1
+--- /dev/null
++++ b/patch/0001-juan-rewrites.patch
+@@ -0,0 +1,25 @@
++From d49cd1b577c8f851191f6568591228eb56882a57 Mon Sep 17 00:00:00 2001
++From: CoderDan1983 <seekingsomething121@gmail.com>
++Date: Sun, 17 Oct 2021 08:17:47 -0700
++Subject: [PATCH] juan rewrites
++
++---
++ index.html | 2 +-
++ 1 file changed, 1 insertion(+), 1 deletion(-)
++
++diff --git a/index.html b/index.html
++index 7ef8cca..64e8548 100644
++--- a/index.html
+++++ b/index.html
++@@ -32,6 +32,6 @@
++ 		<p>why does it keep saving?</p>
++ 		<p>I don't want it to save</p>
++ 		<p>git ignore is ignored</p>
++-		<p>this doesn't not track!</p>
+++		<p>juan whey ore a mother, Eye'em gun uh fine ya!</p>
++ 	</body>
++ </html>
++\ No newline at end of file
++-- 
++2.28.0.windows.1
++
+diff --git a/patches/.0020-hmmm.swp b/patches/.0020-hmmm.swp
+new file mode 100644
+index 0000000000000000000000000000000000000000..5aa57251b4416a74a68697b0568fb54d0b1039b4
+GIT binary patch
+literal 12288
+zcmeI%ze>YU6vy!sHw97j1zMeBZmtwu#ahu;5`uM)8k#_o7LwU6KBAA}AWEV4(qzoi
+zE%5!p$t8d8;pDT0ys6j6=fTaD7L!wZ*yZa;WE_`SlDAj7*V%3O5`=Da{}4Ql?xvj&
+ze(oB2lQ_?{(!RII>S(+y6K@sQ?`cwbN@?Y$MNxG2;06K+>??3Qzt+C8yDu+>gY&cb
+zzKz(200IagfB*srAb<b@Jrt-{j;zhx2hHqG$J)bJV`KynKmY**5I_I{1Q0*~0R#|e
+z1mX{o?-P+9Q}+LV`~7dvH>Ung{h9hTMG!y$0R#|0009ILKmY**5I~?m0@a~SWg}Z#
+C93~q8
+
+literal 0
+HcmV?d00001
+
+diff --git a/patches/0001-I-hope-to-remember-these-changes.patch b/patches/0001-I-hope-to-remember-these-changes.patch
+new file mode 100644
+index 0000000..3021f1d
+--- /dev/null
++++ b/patches/0001-I-hope-to-remember-these-changes.patch
+@@ -0,0 +1,24 @@
++From 3f1e00a39693b5fb1b75d6da3d35d2a60ffabc05 Mon Sep 17 00:00:00 2001
++From: CoderDan1983 <seekingsomething121@gmail.com>
++Date: Mon, 4 Oct 2021 06:50:53 -0700
++Subject: [PATCH 01/34] I hope to remember these changes
++
++---
++ index.html | 1 +
++ 1 file changed, 1 insertion(+)
++
++diff --git a/index.html b/index.html
++index 40ad066..5c8e0bc 100644
++--- a/index.html
+++++ b/index.html
++@@ -9,5 +9,6 @@
++ 		<h1>Let's all get along</h1>
++ 		<script src="./index.js"></script>
++ 		<p>Our home is a fortress</p>
+++		<div>Please Don't forget about me</div>
++ 	</body>
++ </html>
++\ No newline at end of file
++-- 
++2.28.0.windows.1
++
+diff --git a/patches/0002-fortress-change.patch b/patches/0002-fortress-change.patch
+new file mode 100644
+index 0000000..779f6d5
+--- /dev/null
++++ b/patches/0002-fortress-change.patch
+@@ -0,0 +1,27 @@
++From cf18102d4acb56aa1efd0992730f8870b9567a4a Mon Sep 17 00:00:00 2001
++From: CoderDan1983 <seekingsomething121@gmail.com>
++Date: Thu, 14 Oct 2021 05:35:31 -0700
++Subject: [PATCH 02/34] fortress change
++
++---
++ index.html | 4 ++--
++ 1 file changed, 2 insertions(+), 2 deletions(-)
++
++diff --git a/index.html b/index.html
++index 5c8e0bc..cccbdd3 100644
++--- a/index.html
+++++ b/index.html
++@@ -8,7 +8,7 @@
++ 	<body>
++ 		<h1>Let's all get along</h1>
++ 		<script src="./index.js"></script>
++-		<p>Our home is a fortress</p>
++-		<div>Please Don't forget about me</div>
+++		<p>I used to play Fortress</p>
+++		<div>Please Don't forget about knees</div>
++ 	</body>
++ </html>
++\ No newline at end of file
++-- 
++2.28.0.windows.1
++
+diff --git a/patches/0003-added-div.patch b/patches/0003-added-div.patch
+new file mode 100644
+index 0000000..c23914d
+--- /dev/null
++++ b/patches/0003-added-div.patch
+@@ -0,0 +1,24 @@
++From 01d1fbc9f45eaaabfe4513ca9afda7f10ff39e64 Mon Sep 17 00:00:00 2001
++From: CoderDan1983 <seekingsomething121@gmail.com>
++Date: Thu, 14 Oct 2021 05:38:30 -0700
++Subject: [PATCH 03/34] added div
++
++---
++ index.html | 1 +
++ 1 file changed, 1 insertion(+)
++
++diff --git a/index.html b/index.html
++index cccbdd3..80ed716 100644
++--- a/index.html
+++++ b/index.html
++@@ -10,5 +10,6 @@
++ 		<script src="./index.js"></script>
++ 		<p>I used to play Fortress</p>
++ 		<div>Please Don't forget about knees</div>
+++		<div>git diff didn't notice when I added the div, but what about when I change it?</div>
++ 	</body>
++ </html>
++\ No newline at end of file
++-- 
++2.28.0.windows.1
++
+diff --git a/patches/0004-studying-hashes-relative-to-saves-adds-and-commits.patch b/patches/0004-studying-hashes-relative-to-saves-adds-and-commits.patch
+new file mode 100644
+index 0000000..be9b5a2
+--- /dev/null
++++ b/patches/0004-studying-hashes-relative-to-saves-adds-and-commits.patch
+@@ -0,0 +1,25 @@
++From 16ab41c037a0ae2c3a4a82a88cb97db7d89ab523 Mon Sep 17 00:00:00 2001
++From: CoderDan1983 <seekingsomething121@gmail.com>
++Date: Thu, 14 Oct 2021 11:09:50 -0700
++Subject: [PATCH 04/34] studying hashes relative to saves, adds, and commits.
++
++---
++ index.html | 2 ++
++ 1 file changed, 2 insertions(+)
++
++diff --git a/index.html b/index.html
++index 80ed716..3282fc0 100644
++--- a/index.html
+++++ b/index.html
++@@ -11,5 +11,7 @@
++ 		<p>I used to play Fortress</p>
++ 		<div>Please Don't forget about knees</div>
++ 		<div>git diff didn't notice when I added the div, but what about when I change it?</div>
+++		<div>and what about bing bong?</div>
+++		<div>and fling flong!</div>
++ 	</body>
++ </html>
++\ No newline at end of file
++-- 
++2.28.0.windows.1
++
+diff --git a/patches/0005-more-testing.patch b/patches/0005-more-testing.patch
+new file mode 100644
+index 0000000..c77af2b
+--- /dev/null
++++ b/patches/0005-more-testing.patch
+@@ -0,0 +1,26 @@
++From 7559651e9d0fc720b69e9fb469f256fd2ec6cf2e Mon Sep 17 00:00:00 2001
++From: CoderDan1983 <seekingsomething121@gmail.com>
++Date: Thu, 14 Oct 2021 11:20:01 -0700
++Subject: [PATCH 05/34] more testing
++
++---
++ index.html | 3 +++
++ 1 file changed, 3 insertions(+)
++
++diff --git a/index.html b/index.html
++index 3282fc0..ac2eca6 100644
++--- a/index.html
+++++ b/index.html
++@@ -13,5 +13,8 @@
++ 		<div>git diff didn't notice when I added the div, but what about when I change it?</div>
++ 		<div>and what about bing bong?</div>
++ 		<div>and fling flong!</div>
+++		<p><span>It seems so interesting with the "ongs!"</span></p>
+++		<div>What now?</div>
+++
++ 	</body>
++ </html>
++\ No newline at end of file
++-- 
++2.28.0.windows.1
++
+diff --git a/patches/0006-getting-up-to-date.patch b/patches/0006-getting-up-to-date.patch
+new file mode 100644
+index 0000000..4351668
+--- /dev/null
++++ b/patches/0006-getting-up-to-date.patch
+@@ -0,0 +1,25 @@
++From 309930abe68adbcb423edf93ba33f3a2a126224c Mon Sep 17 00:00:00 2001
++From: CoderDan1983 <seekingsomething121@gmail.com>
++Date: Fri, 15 Oct 2021 05:50:28 -0700
++Subject: [PATCH 06/34] getting up to date
++
++---
++ index.html | 1 +
++ 1 file changed, 1 insertion(+)
++
++diff --git a/index.html b/index.html
++index ac2eca6..cdda286 100644
++--- a/index.html
+++++ b/index.html
++@@ -15,6 +15,7 @@
++ 		<div>and fling flong!</div>
++ 		<p><span>It seems so interesting with the "ongs!"</span></p>
++ 		<div>What now?</div>
+++		<div>I guess we keep going</div>
++ 
++ 	</body>
++ </html>
++\ No newline at end of file
++-- 
++2.28.0.windows.1
++
+diff --git a/patches/0007-introducing-bug.patch b/patches/0007-introducing-bug.patch
+new file mode 100644
+index 0000000..f4751a8
+--- /dev/null
++++ b/patches/0007-introducing-bug.patch
+@@ -0,0 +1,24 @@
++From 2100051ee19775c71ecc487549a8aab4c9853d59 Mon Sep 17 00:00:00 2001
++From: CoderDan1983 <seekingsomething121@gmail.com>
++Date: Fri, 15 Oct 2021 08:29:47 -0700
++Subject: [PATCH 07/34] introducing bug
++
++---
++ index.html | 1 +
++ 1 file changed, 1 insertion(+)
++
++diff --git a/index.html b/index.html
++index cdda286..4883e5b 100644
++--- a/index.html
+++++ b/index.html
++@@ -17,5 +17,6 @@
++ 		<div>What now?</div>
++ 		<div>I guess we keep going</div>
++ 
+++		<div>Oogy, boogie!  I'm one bad bug!  I've got six legs and I'll mess with your code.  But at least I'll do it for free ^_^ </div>
++ 	</body>
++ </html>
++\ No newline at end of file
++-- 
++2.28.0.windows.1
++
+diff --git a/patches/0008-walking-away.patch b/patches/0008-walking-away.patch
+new file mode 100644
+index 0000000..718807e
+--- /dev/null
++++ b/patches/0008-walking-away.patch
+@@ -0,0 +1,24 @@
++From 29a4d838d93e1841b55e7c99b02a31c194020e94 Mon Sep 17 00:00:00 2001
++From: CoderDan1983 <seekingsomething121@gmail.com>
++Date: Fri, 15 Oct 2021 08:30:45 -0700
++Subject: [PATCH 08/34] walking away
++
++---
++ index.html | 1 +
++ 1 file changed, 1 insertion(+)
++
++diff --git a/index.html b/index.html
++index 4883e5b..593247d 100644
++--- a/index.html
+++++ b/index.html
++@@ -18,5 +18,6 @@
++ 		<div>I guess we keep going</div>
++ 
++ 		<div>Oogy, boogie!  I'm one bad bug!  I've got six legs and I'll mess with your code.  But at least I'll do it for free ^_^ </div>
+++		<div>Truth be told, I introduced the bug on purpose</div>
++ 	</body>
++ </html>
++\ No newline at end of file
++-- 
++2.28.0.windows.1
++
+diff --git a/patches/0009-loanly-rode.patch b/patches/0009-loanly-rode.patch
+new file mode 100644
+index 0000000..3265c19
+--- /dev/null
++++ b/patches/0009-loanly-rode.patch
+@@ -0,0 +1,24 @@
++From 14eadf2b795aa41a7b74f344719404c9cb9a5d69 Mon Sep 17 00:00:00 2001
++From: CoderDan1983 <seekingsomething121@gmail.com>
++Date: Fri, 15 Oct 2021 08:32:22 -0700
++Subject: [PATCH 09/34] loanly rode
++
++---
++ index.html | 1 +
++ 1 file changed, 1 insertion(+)
++
++diff --git a/index.html b/index.html
++index 593247d..2d31503 100644
++--- a/index.html
+++++ b/index.html
++@@ -19,5 +19,6 @@
++ 
++ 		<div>Oogy, boogie!  I'm one bad bug!  I've got six legs and I'll mess with your code.  But at least I'll do it for free ^_^ </div>
++ 		<div>Truth be told, I introduced the bug on purpose</div>
+++		<div>The loanly rode's got hymn</div>
++ 	</body>
++ </html>
++\ No newline at end of file
++-- 
++2.28.0.windows.1
++
+diff --git a/patches/0010-gogh-time.patch b/patches/0010-gogh-time.patch
+new file mode 100644
+index 0000000..a8faf89
+--- /dev/null
++++ b/patches/0010-gogh-time.patch
+@@ -0,0 +1,24 @@
++From e3a8f80bf229f4f503699f9e5f4ce8587d7ad467 Mon Sep 17 00:00:00 2001
++From: CoderDan1983 <seekingsomething121@gmail.com>
++Date: Fri, 15 Oct 2021 08:34:22 -0700
++Subject: [PATCH 10/34] gogh time
++
++---
++ index.html | 1 +
++ 1 file changed, 1 insertion(+)
++
++diff --git a/index.html b/index.html
++index 2d31503..9b286b0 100644
++--- a/index.html
+++++ b/index.html
++@@ -20,5 +20,6 @@
++ 		<div>Oogy, boogie!  I'm one bad bug!  I've got six legs and I'll mess with your code.  But at least I'll do it for free ^_^ </div>
++ 		<div>Truth be told, I introduced the bug on purpose</div>
++ 		<div>The loanly rode's got hymn</div>
+++		<div>Hiss got too Gogh</div>
++ 	</body>
++ </html>
++\ No newline at end of file
++-- 
++2.28.0.windows.1
++
+diff --git a/patches/0011-donut.patch b/patches/0011-donut.patch
+new file mode 100644
+index 0000000..b25ed31
+--- /dev/null
++++ b/patches/0011-donut.patch
+@@ -0,0 +1,24 @@
++From 5986db2c14baa405a5ed69703c984ea78f1b6f5b Mon Sep 17 00:00:00 2001
++From: CoderDan1983 <seekingsomething121@gmail.com>
++Date: Fri, 15 Oct 2021 09:51:32 -0700
++Subject: [PATCH 11/34] donut
++
++---
++ index.html | 1 +
++ 1 file changed, 1 insertion(+)
++
++diff --git a/index.html b/index.html
++index 9b286b0..3f825f2 100644
++--- a/index.html
+++++ b/index.html
++@@ -21,5 +21,6 @@
++ 		<div>Truth be told, I introduced the bug on purpose</div>
++ 		<div>The loanly rode's got hymn</div>
++ 		<div>Hiss got too Gogh</div>
+++		<div>Though hee donut know ow</div>
++ 	</body>
++ </html>
++\ No newline at end of file
++-- 
++2.28.0.windows.1
++
+diff --git a/patches/0012-due-or-dye.patch b/patches/0012-due-or-dye.patch
+new file mode 100644
+index 0000000..4a93921
+--- /dev/null
++++ b/patches/0012-due-or-dye.patch
+@@ -0,0 +1,24 @@
++From ab7b2d31469590dbf44c886a37caf8b2aa6c06dd Mon Sep 17 00:00:00 2001
++From: CoderDan1983 <seekingsomething121@gmail.com>
++Date: Fri, 15 Oct 2021 09:53:16 -0700
++Subject: [PATCH 12/34] due or dye
++
++---
++ index.html | 1 +
++ 1 file changed, 1 insertion(+)
++
++diff --git a/index.html b/index.html
++index 3f825f2..248fb63 100644
++--- a/index.html
+++++ b/index.html
++@@ -22,5 +22,6 @@
++ 		<div>The loanly rode's got hymn</div>
++ 		<div>Hiss got too Gogh</div>
++ 		<div>Though hee donut know ow</div>
+++		<div>Eye well due ore dye</div>
++ 	</body>
++ </html>
++\ No newline at end of file
++-- 
++2.28.0.windows.1
++
+diff --git a/patches/0013-leaf-ate-bee.patch b/patches/0013-leaf-ate-bee.patch
+new file mode 100644
+index 0000000..e4e0f5d
+--- /dev/null
++++ b/patches/0013-leaf-ate-bee.patch
+@@ -0,0 +1,24 @@
++From 726f5d0e0dbd096b422ec8be2daa4a345cef4e2f Mon Sep 17 00:00:00 2001
++From: CoderDan1983 <seekingsomething121@gmail.com>
++Date: Fri, 15 Oct 2021 09:54:40 -0700
++Subject: [PATCH 13/34] leaf ate bee
++
++---
++ index.html | 1 +
++ 1 file changed, 1 insertion(+)
++
++diff --git a/index.html b/index.html
++index 248fb63..31788e5 100644
++--- a/index.html
+++++ b/index.html
++@@ -23,5 +23,6 @@
++ 		<div>Hiss got too Gogh</div>
++ 		<div>Though hee donut know ow</div>
++ 		<div>Eye well due ore dye</div>
+++		<div>Four eye can ought leaf ate bee</div>
++ 	</body>
++ </html>
++\ No newline at end of file
++-- 
++2.28.0.windows.1
++
+diff --git a/patches/0014-created-function-notMuchHasBeenDoneHere.patch b/patches/0014-created-function-notMuchHasBeenDoneHere.patch
+new file mode 100644
+index 0000000..6922102
+--- /dev/null
++++ b/patches/0014-created-function-notMuchHasBeenDoneHere.patch
+@@ -0,0 +1,25 @@
++From d36ddd5cc2632e9b80cba82397762cdf08fd2057 Mon Sep 17 00:00:00 2001
++From: CoderDan1983 <seekingsomething121@gmail.com>
++Date: Fri, 15 Oct 2021 10:30:27 -0700
++Subject: [PATCH 14/34] created function notMuchHasBeenDoneHere
++
++---
++ index.js | 6 +++++-
++ 1 file changed, 5 insertions(+), 1 deletion(-)
++
++diff --git a/index.js b/index.js
++index f8431b5..605faa3 100644
++--- a/index.js
+++++ b/index.js
++@@ -1 +1,5 @@
++-//going where so many have gone before
++\ No newline at end of file
+++//going where so many have gone before
+++function notMuchHasBeenDoneHere(){
+++	const roll=round(Math.random());
+++	return(roll);
+++}
++\ No newline at end of file
++-- 
++2.28.0.windows.1
++
+diff --git a/patches/0015-created-class-romneyfied.patch b/patches/0015-created-class-romneyfied.patch
+new file mode 100644
+index 0000000..77ba882
+--- /dev/null
++++ b/patches/0015-created-class-romneyfied.patch
+@@ -0,0 +1,30 @@
++From 93e92ede3561c54ae1875e0e5d49be80aedff933 Mon Sep 17 00:00:00 2001
++From: CoderDan1983 <seekingsomething121@gmail.com>
++Date: Fri, 15 Oct 2021 10:33:54 -0700
++Subject: [PATCH 15/34] created class romneyfied
++
++---
++ index.js | 8 ++++++++
++ 1 file changed, 8 insertions(+)
++
++diff --git a/index.js b/index.js
++index 605faa3..8391380 100644
++--- a/index.js
+++++ b/index.js
++@@ -2,4 +2,12 @@
++ function notMuchHasBeenDoneHere(){
++ 	const roll=round(Math.random());
++ 	return(roll);
+++}
+++
+++class Romneyfied {
+++	constructor(name, age, power){
+++		this.name=name;
+++		this.age=age;
+++		this.power=power;
+++	}
++ }
++\ No newline at end of file
++-- 
++2.28.0.windows.1
++
+diff --git a/patches/0016-beef-read.patch b/patches/0016-beef-read.patch
+new file mode 100644
+index 0000000..fcc050d
+--- /dev/null
++++ b/patches/0016-beef-read.patch
+@@ -0,0 +1,59 @@
++From 940f2287f1c2cd397251dd56c3ad2308bf8a798e Mon Sep 17 00:00:00 2001
++From: CoderDan1983 <seekingsomething121@gmail.com>
++Date: Sun, 17 Oct 2021 06:22:58 -0700
++Subject: [PATCH 16/34] beef read
++
++---
++ index.html |   1 +
++ latest.zip | Bin 0 -> 1595 bytes
++ 2 files changed, 1 insertion(+)
++ create mode 100644 latest.zip
++
++diff --git a/index.html b/index.html
++index 31788e5..a81eb26 100644
++--- a/index.html
+++++ b/index.html
++@@ -24,5 +24,6 @@
++ 		<div>Though hee donut know ow</div>
++ 		<div>Eye well due ore dye</div>
++ 		<div>Four eye can ought leaf ate bee</div>
+++		<div>know, eye kneed too beef read</div>
++ 	</body>
++ </html>
++\ No newline at end of file
++diff --git a/latest.zip b/latest.zip
++new file mode 100644
++index 0000000000000000000000000000000000000000..d727fd6d1aa58258adc835b9f6993f846f0ca388
++GIT binary patch
++literal 1595
++zcmWIWW@h1H00HX||6ni!N^mf6G87c$XQd{W=!b@|GB7sn&P)t|D(3(z*EM9GBFV(S
++z@RON=K?q5CW?o8ag<eKUZVp^yZt&^6I|e*9>JI-JU!RU^GA$~PS>Ss~N@IeIm`0VS
++zV)T|J>vW_h?dki!Z^~PnSKl76A9+|{A<}*K?&Il?&o8gOuyOO#t52_{Zu}Q3BGu|+
++zFYan`F{$#(3qcn9xdp;k;&!+tH+TqaeYoCT=M$^-^2o=24=&zIQ}h#ScI%Nmvhw&>
++zm3*fY4%IpNo1N|CWiMTfv8!Jje??_^YvBDU_YL1Mb7VUvKGC;4dSSMzoK*fVj)Uf%
++z7c4sU+wY$Vf8w3u_%)T)*<t3C?_oY49OfNu4|wvoX~MG@yGRknhkbYKoV@Gw!Y>Ov
++zd?Fw@+aW(ARmtP>wm*|J4+fg>9$InHk=5x`h@W!%`Rf73Cs!QRzR#7lrGV?;5r65t
++zhfmxqa_2P7`u$IS-B!(8YSCr#hiW5R;&yCGDi+wy(0E|S31(hH)gHB1k@3em6Q^%X
++z<oq{X(S8z(`{QjntXT=46I?75zb!biWTwsx^DD|LJFV4&*vc8M?qe?E*g7GneU|^Z
++z6FYS->}ha4>in#3m977-*)Jy_>15;Q^|WEANz;!AlnRb1m^6D<I;-w|*NT5%d8F66
++z+Z%ZI+Ei(;zgc2-aI(y-QX8GtR7d+C^O*7`OD1?)STjCXh(D|n?mzc7!~U5YjwlJ%
++zs4o4lxX3Z{L2bgxynTTtOuf=K{vHwM2##lF`greTruIw4pN&1)EzK@gzb|gmzr($6
++zad%Cu(!Hr$?$<M*rl|A6wQcKw3Gh1*3t*(EtYUb2a_u$bYc}9<O`ou%`M5%80mG4?
++z(uBm9yq6L<gl<foEV8g`w|U}%=KW9JfB*Zs>d{QK8#-J~$q}Y+6TY%1COK6+JkjK8
++z$7WQQ#*}oQJ=yy0yN)j%KH`&C{Sm87n=yy|VQOY8Gw-VF_rexsJ_wzfDlF(I-x88^
++zsZOMF;%rxIcK<le?}f)0*ToC<qz5hu-_tm6(Vj|Y%hN{r>ETO*XD`{g=ET;*f5&EK
++z`unE6v8hAzq=d-Si9iot2VxN<PZlI5XD6no>SYz@=fOSd+qWC+(Q=i42R|JMQH+RO
++z%{O=VCYR3Wn5ir`7dkopspd?1QE`4}-I`R!hI>6NvJbi!?|8te&;D<c2K#)UX!Fv^
++z8<n>n3O=KC`Qit`o7PdUwx`vEm6~UtvhG}BD0-5Qv1(5z%gY1o9!w=lr~TEgD~E_)
++zI3yV5v-tMT3ug*BK9&DCJZ+EM|NHXS_wJf{lpobEMpFN@41xYI24X=ZzZ92L=A`N+
++z7b9Zq^7SB(Q|I+hobe9VIPanB6{>MA{DkkB)hu0NBHAe`)0S$fEL|qHWEsQCEj0`F
++zOtS-~3`Sttg1c}6+6V*!5DHsS1=Ehbumb601Z&m@lCY8vOVNdJ2gD%sG>R~&5$Il2
++zgOE}zhB0WV0AWlTusDSogEdW{8-*ST2&0Tx5Jq7}Nq{#i8%QlH5GDb`Vm45<27{$>
++qs-;nCN~*D`nPIZ2Nn)y@g}G^}L8@triDgo%g+XF!N?Mwwu`vJ;zB}gt
++
++literal 0
++HcmV?d00001
++
++-- 
++2.28.0.windows.1
++
+diff --git a/patches/0017-this-was-saved-with-Git-GUI.-Message-ammended-there-.patch b/patches/0017-this-was-saved-with-Git-GUI.-Message-ammended-there-.patch
+new file mode 100644
+index 0000000..6b9756f
+--- /dev/null
++++ b/patches/0017-this-was-saved-with-Git-GUI.-Message-ammended-there-.patch
+@@ -0,0 +1,26 @@
++From 5a10d5c5a58704e0177ee7c9d4e7dc3229b7e0b9 Mon Sep 17 00:00:00 2001
++From: CoderDan1983 <seekingsomething121@gmail.com>
++Date: Sun, 17 Oct 2021 06:45:50 -0700
++Subject: [PATCH 17/34] "this was saved with Git GUI.  Message ammended there,
++ too!"
++
++Signed-off-by: CoderDan1983 <seekingsomething121@gmail.com>
++---
++ index.html | 1 +
++ 1 file changed, 1 insertion(+)
++
++diff --git a/index.html b/index.html
++index a81eb26..6304e4a 100644
++--- a/index.html
+++++ b/index.html
++@@ -25,5 +25,6 @@
++ 		<div>Eye well due ore dye</div>
++ 		<div>Four eye can ought leaf ate bee</div>
++ 		<div>know, eye kneed too beef read</div>
+++		<p>Andy own leeway wee khan awl beef read</p>
++ 	</body>
++ </html>
++\ No newline at end of file
++-- 
++2.28.0.windows.1
++
+diff --git a/patches/0018-what-will-happen-here.patch b/patches/0018-what-will-happen-here.patch
+new file mode 100644
+index 0000000..308ff03
+--- /dev/null
++++ b/patches/0018-what-will-happen-here.patch
+@@ -0,0 +1,24 @@
++From 344253ca2064ebdae4ab51e8190caf246bd03e91 Mon Sep 17 00:00:00 2001
++From: CoderDan1983 <seekingsomething121@gmail.com>
++Date: Sun, 17 Oct 2021 06:55:22 -0700
++Subject: [PATCH 18/34] what will happen here?
++
++---
++ index.html | 1 +
++ 1 file changed, 1 insertion(+)
++
++diff --git a/index.html b/index.html
++index 6304e4a..206fe4d 100644
++--- a/index.html
+++++ b/index.html
++@@ -26,5 +26,6 @@
++ 		<div>Four eye can ought leaf ate bee</div>
++ 		<div>know, eye kneed too beef read</div>
++ 		<p>Andy own leeway wee khan awl beef read</p>
+++		<p>this will knot bee remembered</p>
++ 	</body>
++ </html>
++\ No newline at end of file
++-- 
++2.28.0.windows.1
++
+diff --git a/patches/0019-gitignore-added.patch b/patches/0019-gitignore-added.patch
+new file mode 100644
+index 0000000..4b19a4a
+--- /dev/null
++++ b/patches/0019-gitignore-added.patch
+@@ -0,0 +1,22 @@
++From 7d55a6ab9a2bf1e75cdda3986a3f8442c5559e4e Mon Sep 17 00:00:00 2001
++From: CoderDan1983 <seekingsomething121@gmail.com>
++Date: Sun, 17 Oct 2021 06:56:45 -0700
++Subject: [PATCH 19/34] gitignore added
++
++---
++ .gitignore | 2 ++
++ 1 file changed, 2 insertions(+)
++ create mode 100644 .gitignore
++
++diff --git a/.gitignore b/.gitignore
++new file mode 100644
++index 0000000..a876665
++--- /dev/null
+++++ b/.gitignore
++@@ -0,0 +1,2 @@
+++# ignore all html files
+++*.html
++\ No newline at end of file
++-- 
++2.28.0.windows.1
++
+diff --git a/patches/0020-hmmm.patch b/patches/0020-hmmm.patch
+new file mode 100644
+index 0000000..75b33f8
+--- /dev/null
++++ b/patches/0020-hmmm.patch
+@@ -0,0 +1,24 @@
++From 8d3b55e600c74c3168dddd6c62fddc42fa6251ab Mon Sep 17 00:00:00 2001
++From: CoderDan1983 <seekingsomething121@gmail.com>
++Date: Sun, 17 Oct 2021 06:57:49 -0700
++Subject: [PATCH 20/34] hmmm
++
++---
++ index.html | 1 +
++ 1 file changed, 1 insertion(+)
++
++diff --git a/index.html b/index.html
++index 206fe4d..471fa08 100644
++--- a/index.html
+++++ b/index.html
++@@ -27,5 +27,6 @@
++ 		<div>know, eye kneed too beef read</div>
++ 		<p>Andy own leeway wee khan awl beef read</p>
++ 		<p>this will knot bee remembered</p>
+++		<p>or will it?</p>
++ 	</body>
++ </html>
++\ No newline at end of file
++-- 
++2.28.0.windows.1
++
+diff --git a/patches/0021-gitignore-updated.patch b/patches/0021-gitignore-updated.patch
+new file mode 100644
+index 0000000..086be56
+--- /dev/null
++++ b/patches/0021-gitignore-updated.patch
+@@ -0,0 +1,22 @@
++From 2e9cd664947834394ac4a79f1d07ed1f6ee9d7e4 Mon Sep 17 00:00:00 2001
++From: CoderDan1983 <seekingsomething121@gmail.com>
++Date: Sun, 17 Oct 2021 06:59:58 -0700
++Subject: [PATCH 21/34] gitignore updated?
++
++---
++ .gitignore | 2 +-
++ 1 file changed, 1 insertion(+), 1 deletion(-)
++
++diff --git a/.gitignore b/.gitignore
++index a876665..f0db3fe 100644
++--- a/.gitignore
+++++ b/.gitignore
++@@ -1,2 +1,2 @@
++ # ignore all html files
++-*.html
++\ No newline at end of file
+++index.html
++\ No newline at end of file
++-- 
++2.28.0.windows.1
++
+diff --git a/patches/0022-still-commiting.patch b/patches/0022-still-commiting.patch
+new file mode 100644
+index 0000000..bcbe060
+--- /dev/null
++++ b/patches/0022-still-commiting.patch
+@@ -0,0 +1,24 @@
++From 92a6a6a7b7bd23dbb06119264855e332fb423633 Mon Sep 17 00:00:00 2001
++From: CoderDan1983 <seekingsomething121@gmail.com>
++Date: Sun, 17 Oct 2021 07:01:34 -0700
++Subject: [PATCH 22/34] still commiting?
++
++---
++ index.html | 1 +
++ 1 file changed, 1 insertion(+)
++
++diff --git a/index.html b/index.html
++index 471fa08..c4a6898 100644
++--- a/index.html
+++++ b/index.html
++@@ -28,5 +28,6 @@
++ 		<p>Andy own leeway wee khan awl beef read</p>
++ 		<p>this will knot bee remembered</p>
++ 		<p>or will it?</p>
+++		<p>Welp, that was saved</p>
++ 	</body>
++ </html>
++\ No newline at end of file
++-- 
++2.28.0.windows.1
++
+diff --git a/patches/0023-why.patch b/patches/0023-why.patch
+new file mode 100644
+index 0000000..59a15c3
+--- /dev/null
++++ b/patches/0023-why.patch
+@@ -0,0 +1,24 @@
++From ffa910e94615a529463db3c9749c4d9f8bfa266e Mon Sep 17 00:00:00 2001
++From: CoderDan1983 <seekingsomething121@gmail.com>
++Date: Sun, 17 Oct 2021 07:03:59 -0700
++Subject: [PATCH 23/34] why?
++
++---
++ index.html | 1 +
++ 1 file changed, 1 insertion(+)
++
++diff --git a/index.html b/index.html
++index c4a6898..18b0c5e 100644
++--- a/index.html
+++++ b/index.html
++@@ -29,5 +29,6 @@
++ 		<p>this will knot bee remembered</p>
++ 		<p>or will it?</p>
++ 		<p>Welp, that was saved</p>
+++		<p>why does it keep saving?</p>
++ 	</body>
++ </html>
++\ No newline at end of file
++-- 
++2.28.0.windows.1
++
+diff --git a/patches/0024-against-my-will.patch b/patches/0024-against-my-will.patch
+new file mode 100644
+index 0000000..45a4f47
+--- /dev/null
++++ b/patches/0024-against-my-will.patch
+@@ -0,0 +1,24 @@
++From 662d93ffc7edfdeab5f7fbadebd0762454c2e70d Mon Sep 17 00:00:00 2001
++From: CoderDan1983 <seekingsomething121@gmail.com>
++Date: Sun, 17 Oct 2021 07:05:23 -0700
++Subject: [PATCH 24/34] against my will
++
++---
++ index.html | 1 +
++ 1 file changed, 1 insertion(+)
++
++diff --git a/index.html b/index.html
++index 18b0c5e..8494e43 100644
++--- a/index.html
+++++ b/index.html
++@@ -30,5 +30,6 @@
++ 		<p>or will it?</p>
++ 		<p>Welp, that was saved</p>
++ 		<p>why does it keep saving?</p>
+++		<p>I don't want it to save</p>
++ 	</body>
++ </html>
++\ No newline at end of file
++-- 
++2.28.0.windows.1
++
+diff --git a/patches/0025-sigh.patch b/patches/0025-sigh.patch
+new file mode 100644
+index 0000000..1657015
+--- /dev/null
++++ b/patches/0025-sigh.patch
+@@ -0,0 +1,52 @@
++From d05a503390427b62a6dbf8a46e303ec1a203b4a7 Mon Sep 17 00:00:00 2001
++From: CoderDan1983 <seekingsomething121@gmail.com>
++Date: Sun, 17 Oct 2021 07:08:45 -0700
++Subject: [PATCH 25/34] sigh
++
++---
++ .gitignore | 5 +++--
++ index.html | 1 +
++ index.js   | 4 +++-
++ 3 files changed, 7 insertions(+), 3 deletions(-)
++
++diff --git a/.gitignore b/.gitignore
++index f0db3fe..6cb34a9 100644
++--- a/.gitignore
+++++ b/.gitignore
++@@ -1,2 +1,3 @@
++-# ignore all html files
++-index.html
++\ No newline at end of file
+++# ignore some stuff
+++index.html
+++index.js
++\ No newline at end of file
++diff --git a/index.html b/index.html
++index 8494e43..f1772f4 100644
++--- a/index.html
+++++ b/index.html
++@@ -31,5 +31,6 @@
++ 		<p>Welp, that was saved</p>
++ 		<p>why does it keep saving?</p>
++ 		<p>I don't want it to save</p>
+++		<p>git ignore is ignored</p>
++ 	</body>
++ </html>
++\ No newline at end of file
++diff --git a/index.js b/index.js
++index 8391380..6ff38ce 100644
++--- a/index.js
+++++ b/index.js
++@@ -10,4 +10,6 @@ class Romneyfied {
++ 		this.age=age;
++ 		this.power=power;
++ 	}
++-}
++\ No newline at end of file
+++}
+++
+++let thisArray=[0,1,2,3,4,5,6,7];
++\ No newline at end of file
++-- 
++2.28.0.windows.1
++
+diff --git a/patches/0026-save-it-all.patch b/patches/0026-save-it-all.patch
+new file mode 100644
+index 0000000..1b087de
+--- /dev/null
++++ b/patches/0026-save-it-all.patch
+@@ -0,0 +1,38 @@
++From 9c9416cb4dced973cffaa25b6149733eb7af9bd2 Mon Sep 17 00:00:00 2001
++From: CoderDan1983 <seekingsomething121@gmail.com>
++Date: Sun, 17 Oct 2021 07:31:35 -0700
++Subject: [PATCH 26/34] save it all
++
++---
++ .gitignore | 5 +++--
++ index.html | 1 +
++ 2 files changed, 4 insertions(+), 2 deletions(-)
++
++diff --git a/.gitignore b/.gitignore
++index 6cb34a9..4b2ac59 100644
++--- a/.gitignore
+++++ b/.gitignore
++@@ -1,3 +1,4 @@
++ # ignore some stuff
++-index.html
++-index.js
++\ No newline at end of file
+++#index.html
+++#index.js
+++#dooper.js
++\ No newline at end of file
++diff --git a/index.html b/index.html
++index f1772f4..7ef8cca 100644
++--- a/index.html
+++++ b/index.html
++@@ -32,5 +32,6 @@
++ 		<p>why does it keep saving?</p>
++ 		<p>I don't want it to save</p>
++ 		<p>git ignore is ignored</p>
+++		<p>this doesn't not track!</p>
++ 	</body>
++ </html>
++\ No newline at end of file
++-- 
++2.28.0.windows.1
++
+diff --git a/patches/0027-added-dooper.js.patch b/patches/0027-added-dooper.js.patch
+new file mode 100644
+index 0000000..43c11cc
+--- /dev/null
++++ b/patches/0027-added-dooper.js.patch
+@@ -0,0 +1,25 @@
++From aff6e59eb16a552e47bdb56fd576f34ef5933e59 Mon Sep 17 00:00:00 2001
++From: CoderDan1983 <seekingsomething121@gmail.com>
++Date: Sun, 17 Oct 2021 07:32:02 -0700
++Subject: [PATCH 27/34] added dooper.js
++
++---
++ dooper.js | 5 +++++
++ 1 file changed, 5 insertions(+)
++ create mode 100644 dooper.js
++
++diff --git a/dooper.js b/dooper.js
++new file mode 100644
++index 0000000..1ae3066
++--- /dev/null
+++++ b/dooper.js
++@@ -0,0 +1,5 @@
+++//I don't want to save anything here
+++let pleaseForget={
+++	me: false,
+++	thisFile: true
+++}
++\ No newline at end of file
++-- 
++2.28.0.windows.1
++
+diff --git a/patches/0028-hmmm.patch b/patches/0028-hmmm.patch
+new file mode 100644
+index 0000000..a881525
+--- /dev/null
++++ b/patches/0028-hmmm.patch
+@@ -0,0 +1,24 @@
++From 1d54d041926faa54f183eb7875babf8f548f1bea Mon Sep 17 00:00:00 2001
++From: CoderDan1983 <seekingsomething121@gmail.com>
++Date: Sun, 17 Oct 2021 07:33:18 -0700
++Subject: [PATCH 28/34] hmmm
++
++---
++ .gitignore | 2 +-
++ 1 file changed, 1 insertion(+), 1 deletion(-)
++
++diff --git a/.gitignore b/.gitignore
++index 4b2ac59..0be44bd 100644
++--- a/.gitignore
+++++ b/.gitignore
++@@ -1,4 +1,4 @@
++ # ignore some stuff
++ #index.html
++ #index.js
++-#dooper.js
++\ No newline at end of file
+++dooper.js
++\ No newline at end of file
++-- 
++2.28.0.windows.1
++
+diff --git a/patches/0029-still-saving-dooper.js.patch b/patches/0029-still-saving-dooper.js.patch
+new file mode 100644
+index 0000000..2f62233
+--- /dev/null
++++ b/patches/0029-still-saving-dooper.js.patch
+@@ -0,0 +1,25 @@
++From 76efd66383eb2473865ffa9c61dfdadc5fe738cb Mon Sep 17 00:00:00 2001
++From: CoderDan1983 <seekingsomething121@gmail.com>
++Date: Sun, 17 Oct 2021 07:33:43 -0700
++Subject: [PATCH 29/34] still saving dooper.js
++
++---
++ dooper.js | 3 ++-
++ 1 file changed, 2 insertions(+), 1 deletion(-)
++
++diff --git a/dooper.js b/dooper.js
++index 1ae3066..2b5246a 100644
++--- a/dooper.js
+++++ b/dooper.js
++@@ -1,5 +1,6 @@
++ //I don't want to save anything here
++ let pleaseForget={
++ 	me: false,
++-	thisFile: true
+++	thisFile: true,
+++	stillTracking: true
++ }
++\ No newline at end of file
++-- 
++2.28.0.windows.1
++
+diff --git a/patches/0030-stopping-mooper.js.patch b/patches/0030-stopping-mooper.js.patch
+new file mode 100644
+index 0000000..cf8b26a
+--- /dev/null
++++ b/patches/0030-stopping-mooper.js.patch
+@@ -0,0 +1,25 @@
++From 1237c457af29d4f8ffe0987d2a78900e273d6f3d Mon Sep 17 00:00:00 2001
++From: CoderDan1983 <seekingsomething121@gmail.com>
++Date: Sun, 17 Oct 2021 07:36:10 -0700
++Subject: [PATCH 30/34] stopping mooper.js?
++
++---
++ .gitignore | 3 ++-
++ 1 file changed, 2 insertions(+), 1 deletion(-)
++
++diff --git a/.gitignore b/.gitignore
++index 0be44bd..c4245a1 100644
++--- a/.gitignore
+++++ b/.gitignore
++@@ -1,4 +1,5 @@
++ # ignore some stuff
++ #index.html
++ #index.js
++-dooper.js
++\ No newline at end of file
+++dooper.js
+++mooper.js
++\ No newline at end of file
++-- 
++2.28.0.windows.1
++
+diff --git a/patches/0031-hopefully-stopped-tracking-dooper.js.patch b/patches/0031-hopefully-stopped-tracking-dooper.js.patch
+new file mode 100644
+index 0000000..5dfb023
+--- /dev/null
++++ b/patches/0031-hopefully-stopped-tracking-dooper.js.patch
+@@ -0,0 +1,26 @@
++From 5a78b19ecca1dcbc0e63395ac2e02514336b9e0a Mon Sep 17 00:00:00 2001
++From: CoderDan1983 <seekingsomething121@gmail.com>
++Date: Sun, 17 Oct 2021 07:49:15 -0700
++Subject: [PATCH 31/34] (hopefully) stopped tracking dooper.js
++
++---
++ dooper.js | 6 ------
++ 1 file changed, 6 deletions(-)
++ delete mode 100644 dooper.js
++
++diff --git a/dooper.js b/dooper.js
++deleted file mode 100644
++index 2b5246a..0000000
++--- a/dooper.js
+++++ /dev/null
++@@ -1,6 +0,0 @@
++-//I don't want to save anything here
++-let pleaseForget={
++-	me: false,
++-	thisFile: true,
++-	stillTracking: true
++-}
++\ No newline at end of file
++-- 
++2.28.0.windows.1
++
+diff --git a/patches/0032-juan-rewrites.patch b/patches/0032-juan-rewrites.patch
+new file mode 100644
+index 0000000..e7e61b0
+--- /dev/null
++++ b/patches/0032-juan-rewrites.patch
+@@ -0,0 +1,25 @@
++From d49cd1b577c8f851191f6568591228eb56882a57 Mon Sep 17 00:00:00 2001
++From: CoderDan1983 <seekingsomething121@gmail.com>
++Date: Sun, 17 Oct 2021 08:17:47 -0700
++Subject: [PATCH 32/34] juan rewrites
++
++---
++ index.html | 2 +-
++ 1 file changed, 1 insertion(+), 1 deletion(-)
++
++diff --git a/index.html b/index.html
++index 7ef8cca..64e8548 100644
++--- a/index.html
+++++ b/index.html
++@@ -32,6 +32,6 @@
++ 		<p>why does it keep saving?</p>
++ 		<p>I don't want it to save</p>
++ 		<p>git ignore is ignored</p>
++-		<p>this doesn't not track!</p>
+++		<p>juan whey ore a mother, Eye'em gun uh fine ya!</p>
++ 	</body>
++ </html>
++\ No newline at end of file
++-- 
++2.28.0.windows.1
++
+diff --git a/patches/0033-master-change.patch b/patches/0033-master-change.patch
+new file mode 100644
+index 0000000..9920651
+--- /dev/null
++++ b/patches/0033-master-change.patch
+@@ -0,0 +1,24 @@
++From 0e7bd9121ae1771d49d995d22c998f44ec616da0 Mon Sep 17 00:00:00 2001
++From: CoderDan1983 <seekingsomething121@gmail.com>
++Date: Sun, 17 Oct 2021 08:19:23 -0700
++Subject: [PATCH 33/34] master change
++
++---
++ index.html | 1 +
++ 1 file changed, 1 insertion(+)
++
++diff --git a/index.html b/index.html
++index 64e8548..c0ec982 100644
++--- a/index.html
+++++ b/index.html
++@@ -33,5 +33,6 @@
++ 		<p>I don't want it to save</p>
++ 		<p>git ignore is ignored</p>
++ 		<p>juan whey ore a mother, Eye'em gun uh fine ya!</p>
+++		<p>What if the master went one way...</p>
++ 	</body>
++ </html>
++\ No newline at end of file
++-- 
++2.28.0.windows.1
++
+diff --git a/patches/0034-kind-of-a-mess.patch b/patches/0034-kind-of-a-mess.patch
+new file mode 100644
+index 0000000..05b3e85
+--- /dev/null
++++ b/patches/0034-kind-of-a-mess.patch
+@@ -0,0 +1,27 @@
++From 018fc2c142839d800d91143bf4c5a4be821e5573 Mon Sep 17 00:00:00 2001
++From: CoderDan1983 <seekingsomething121@gmail.com>
++Date: Sun, 17 Oct 2021 09:53:42 -0700
++Subject: [PATCH 34/34] kind of a mess
++
++---
++ index.html | 4 ++++
++ 1 file changed, 4 insertions(+)
++
++diff --git a/index.html b/index.html
++index c0ec982..d4845c6 100644
++--- a/index.html
+++++ b/index.html
++@@ -34,5 +34,9 @@
++ 		<p>git ignore is ignored</p>
++ 		<p>juan whey ore a mother, Eye'em gun uh fine ya!</p>
++ 		<p>What if the master went one way...</p>
+++
+++		<p>But juan went another?</p>
+++		<p>I want to save this part.</p>
+++		<p>the best candy to fix things with amend mints</p>
++ 	</body>
++ </html>
++\ No newline at end of file
++-- 
++2.28.0.windows.1
++
+-- 
+2.28.0.windows.1
+
