@@ -1,0 +1,24 @@
+From dccfab6f5f074fc4a2c4131d0f91732082a123ef Mon Sep 17 00:00:00 2001
+From: CoderDan1983 <seekingsomething121@gmail.com>
+Date: Sun, 24 Oct 2021 15:22:09 -0700
+Subject: [PATCH 1/2] the main point
+
+---
+ index.html | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/index.html b/index.html
+index 3dbeec8..5e6d765 100644
+--- a/index.html
++++ b/index.html
+@@ -51,5 +51,6 @@
+ 		<div>This is nuts!</div>
+ 		<div>good thing I'm not allergic</div>
+ 		<div>is a person allergic to nuts always allergic to peanuts?</div>
++		<p>The main point is</p>
+ 	</body>
+ </html>
+\ No newline at end of file
+-- 
+2.28.0.windows.1
+
