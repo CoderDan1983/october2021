@@ -9,3 +9,7 @@ function giveUp(){
 function ImSerious(){
 	console.log("No, really.  Don't look for me.")
 }
+
+function dontCryForMe(input){
+	console.log("Don't cry for me " + input)
+}
