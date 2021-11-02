@@ -12,16 +12,12 @@ class Romneyfied {
 	}
 }
 
-<<<<<<< HEAD
 let thisArray=[0,1,2,3,4,5,6,7,8,9];
-=======
-let thisArray=[0,1,2,3,4,5,6,7];
->>>>>>> 4417a22... both index files changed :)
+
 let MC = {
 	bravery: 7,
 	strength: 5,
 	speed: 8
-<<<<<<< HEAD
 }
 
 function upgradeMC(){
@@ -41,7 +37,3 @@ function upgradeMC(){
 for (let property in MC){
 	console.log(`${property}: ${MC[property]}`);
 }
-
-=======
-}
->>>>>>> 4417a22... both index files changed :)
