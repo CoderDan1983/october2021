@@ -19,6 +19,20 @@ let MC = {
 	speed: 8
 }
 
+function upgradeMC(){
+	let roll=0;
+	let oldMCProp="";
+
+	for (let property in MC){
+		roll=Math.ceil(Math.random()*10);
+		if (roll>MC[property]){
+			oldMCProp=MC[property];
+			MC[property]=roll;
+			console.log(`${property} upgraded from ${MC[property]} to ${roll}`)
+		}
+	}
+}
+
 for (let property in MC){
 	console.log(`${property}: ${MC[property]}`);
 }
