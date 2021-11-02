@@ -23,11 +23,26 @@ let MC = {
 function upgradeMC(){
 	let roll=0;
 	let oldMCProp="";
-	console.log('upgrading...')
+	console.log('...')
 	for (let property in MC){
 		roll=Math.ceil(Math.random()*10);
 		console.log(roll + ' vs ' + MC[property])
 		if (roll>MC[property]){
+			oldMCProp=MC[property];
+			MC[property]=roll;
+			console.log(`${property} upgraded from ${MC[property]} to ${roll}`)
+		}
+	}
+}
+
+function downgradeMC(){
+	let roll=0;
+	let oldMCProp="";
+	console.log('...')
+	for (let property in MC){
+		roll=Math.ceil(Math.random()*10);
+		console.log(roll + ' vs ' + MC[property])
+		if (roll<MC[property]){
 			oldMCProp=MC[property];
 			MC[property]=roll;
 			console.log(`${property} upgraded from ${MC[property]} to ${roll}`)
